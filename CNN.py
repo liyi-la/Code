@@ -22,5 +22,4 @@ class SimpleCNN(nn.Module):
         return self.classifier(x)
 
 
-# 面试现场可补一句使用示例（不写也行）：
 # model = SimpleCNN(num_classes=10)
